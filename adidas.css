@@ -1,0 +1,114 @@
+
+header{
+    background-color:   rgb(182, 71, 71);
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+#linkdiv{
+    margin-left: 60%;
+    word-spacing: 60px;
+}
+#linkdiv a{
+    color: black;
+}
+h3 img{
+    width: 140px;
+    height: 115px;
+}
+header h3{
+    color: black;
+}
+#flexbox{
+display: flex;
+background-color: whitesmoke;
+}
+.expertise h1{
+text-align: center;
+}
+.expertise p{
+    margin-left: 47px;
+    margin-right: 23px;
+    font-size: larger;
+    text-align: center;
+}
+.parabox{
+border: 1px solid black;
+margin: 10px;
+padding: 23px;
+border-radius: 20px;
+width: 20%;
+color: white;
+}
+.parabox a{
+color: black;
+padding-left: 75px;
+}
+.parabox img{
+    width: 100%;
+}
+/*.parabox button{
+    width: 20%;
+    height: 7%;
+    border-radius: 20px;
+    margin-left: 295px;
+    background-color: rgb(228, 228, 50);
+
+}*/
+#container{
+    display: flex;
+    margin-left: 0%;
+    }
+.row{
+    width: 50%;
+    padding: 0px;
+    background-color:  rgb(182, 71, 71);
+    padding-left: 30px;
+    text-decoration: none;
+}
+.row a{
+    color: black;
+}
+.column{
+    width: 50%;
+    padding: 1px;
+    height: 175px;
+    background-color:rgb(182, 71, 71);
+    padding-left: 120px;
+}
+.fa:hover {
+opacity: 0.7;
+}
+.fa {
+padding: 20px;
+font-size: 30px;
+text-decoration: none;
+margin: 5px 2px;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+footer{
+    color: white;
+    background-color: rgb(95, 17, 17);
+    text-align:center;
+    border: 1px solid black;
+}

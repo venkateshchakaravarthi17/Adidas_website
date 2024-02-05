@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <title>Menu</title>
+        <link href="adidas.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        header{
+            background-color:   rgb(182, 71, 71);
+            color: white;
+        }
+        h3 img{
+            width: 140px;
+            height: 115px;
+        }
+        header h3{
+            color: black;
+        }
+        #loginDiv img{
+            width: 100px;
+            height: 70px;
+        }
+        a:link {
+            text-decoration: none;
+        }
+        #linkDiv{
+            margin-left: 60%;
+            word-spacing: 60px;
+
+        }
+        #linkdiv a{
+            color: black;
+        }
+        #flexbox{
+            display: flex;
+            background-color: rgb(182, 71, 71);
+        }
+        .text-block{
+        border: 1px solid black;
+        margin: 22px;
+        padding: 10px;
+        border-radius: 20px;
+        width: 30%;
+        text-align: center;
+        }
+        .text-block a{
+            color: black;
+        }
+        .text-block p{
+            color: black;
+        }
+        *{
+        box-sizing: border-box;
+        }
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #container{
+        display: flex;
+        margin-left: 0%;
+        }
+
+        #content p{
+            position: absolute;
+            top: 380px;
+            font-size: xx-large;
+            padding-left: 60%;
+            font-style: italic;
+        }
+
+        .row{
+            width: 50%;
+            padding: 0px;
+            background-color:  rgb(182, 71, 71);
+            padding-left: 30px;
+            text-decoration: none;
+        }
+        .row a{
+            color: black;
+        }
+        .column{
+            width: 50%;
+            padding: 1px;
+            height: 300px;
+            background-color:rgb(182, 71, 71);
+            padding-left: 120px;
+        }
+        .fa:hover {
+        opacity: 0.7;
+        }
+        .fa {
+        padding: 20px;
+        font-size: 30px;
+        text-decoration: none;
+        margin: 5px 2px;
+        }
+        .fa-facebook {
+        background: #3B5998;
+        color: white;
+        }
+        .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        }
+        .fa-google {
+        background: #dd4b39;
+        color: white;
+        }
+        .fa-instagram {
+        background: #125688;
+        color: white;
+        }
+        .fa-youtube {
+        background: #bb0000;
+        color: white;
+        }
+        footer{
+            color: white;
+            background-color: rgb(95, 17, 17);
+            text-align:center;
+            border: 1px solid black;
+        }
+    </style>
+<body>
+    <header>
+        <h3><img src="adidaslogo1.png" alt="logo">
+            own your stripes</h3>   
+            <span id="linkdiv">
+                <a href="index.html">HOME</a>   
+                <a href="men.html">MEN</a>
+                <a href="women.html">WOMEN</a>
+                <a href="kids.html">KIDS</a>
+                <a href="sports.html">SPORTS</a>
+            </span>
+    </header>
+    <section>
+        <div id="content">
+            <img src="bgsports.jpg" width="100% height=100%">
+            <br/><p>THROUGH SPORT<br><span style="padding-left: 50px;">WE HAVE THE POWER</span><br><span style="color: blue; padding-left: 100px;">TO CHANGE LIVES</span></p>
+        </div>
+        <article>
+            <div id="flexbox">
+                <span class="text-block">
+                    <h2><a href="google.com">FOOTWEAR</a></h2>
+                    <p>Men,Women</p>
+                </span>
+                <span class="text-block">
+                    <h2><a href="google.com">CLOTHING</a></h2>
+                    <p>Men,Women</p>
+                </span>
+                <span class="text-block">
+                    <h2><a href="google.com">ACCESSORIES</a></h2>
+                    <p>Men,Women</p>
+                </span>
+            </div>
+            <div id="container">  
+                <span class="row">
+                    <h2>SPORTSWEAR AT ADIDAS,SINCE 1949</h2>
+                    <p>Sport keeps us fit.<br>Keeps you mindful.<br>Brings us together.<br>Through sport we have the power to change lives.</p>
+                    <h3>Company Info</h3>
+                    <a href="google.com">About Us</a><br>
+                    <a href="google.com">Adidas Apps</a><br>
+                    <a href="google.com">Careers</a><br>
+                    <a href="google.com">Press</a><br>
+                    <a href="google.com">Terms and Condtions</a>
+                </span>
+                <span class="column">
+                    <h2>WORKOUT CLOTHES, FOR ANY SPORT</h2>
+                    <p>adidas designs for and with athletes of all kinds.<br>Creators, who love to change the game.<br>Break the rules and define new ones.<br>Then break them again.</p>
+                    <h3>Follow Us</h3>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </span>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <h5> &copy;2023 adidas India Marketing Pvt. Ltd</h5>
+    </footer>   
+</body>    
+</html>
